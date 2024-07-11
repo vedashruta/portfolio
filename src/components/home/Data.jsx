@@ -9,7 +9,7 @@ const Data=()=> {
     <p className='home__description'>
     Computer Science Engineer, strong in design and integration with intuitive problem-solving skills.
     Ability to transform business requirements into technical solutions.<br></br>
-    <b>Passion for innovation, prototyping, and deployment</b>
+    {/* <b>Passion for innovation, prototyping, and deployment</b> */}
 
     </p>
    </div>
