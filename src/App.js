@@ -17,10 +17,10 @@ const App = () => {
       <main className='main'>
         <Home />
         <About />
+        <Experience />
         <Qualification />
-        {/* <Experience /> */}
-        {/* <Project /> */}
         <Skills />
+        <Project />
       </main>
       <Footer/>
       <Scrollup />

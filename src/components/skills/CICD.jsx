@@ -13,7 +13,7 @@ const CICD = () => {
                         <i class='bx bxl-docker'></i>
                         <div>
                             <h3 className='skills__name'>Docker</h3>
-                            <span className='skills__level'>3/5</span>
+                            <span className='skills__level'>3.6/5</span>
                         </div>
                     </div>
 
@@ -21,7 +21,7 @@ const CICD = () => {
                         <i class='bx bxl-kubernetes'></i>
                         <div>
                             <h3 className='skills__name'>Kubernetes</h3>
-                            <span className='skills__level'>3/5</span>
+                            <span className='skills__level'>3.6/5</span>
                         </div>
                     </div>
 
@@ -30,7 +30,7 @@ const CICD = () => {
                             </i>
                         <div>
                             <h3 className='skills__name'>Jenkins</h3>
-                            <span className='skills__level'>3/5</span>
+                            <span className='skills__level'>3.6/5</span>
                         </div>
                     </div>
 

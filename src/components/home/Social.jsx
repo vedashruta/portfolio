@@ -12,7 +12,7 @@ const Social = () => {
         <a href='https://www.instagram.com/vedashruta/' className='home__social-icon' target="blank">
             <i class="uil uil-instagram"></i>
         </a>
-        <a href='' className='home__social-icon' target="blank">
+        <a href='https://x.com/vedashrutha' className='home__social-icon' target="blank">
             <i class="uil uil-twitter-alt"></i>
         </a>
     </div>

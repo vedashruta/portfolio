@@ -1,9 +1,11 @@
 import React from 'react'
 import "./skills.css";
-import Development from './Development';
+import Technologies from './Technologies';
 import CICD from './CICD';
 import Cloud from './Cloud';
 import Scripting from './Scripting';
+import LogManagement from './LogManagement';
+import Database from './Database';
 
 const Skills = () => {
   return (
@@ -11,9 +13,11 @@ const Skills = () => {
           <h2 className='section__title'> Skills</h2>
           <br></br>
         <div className='skills__container container grid'>
-            <Development />
+            <Technologies />
+            <Database />
             <CICD />
             <Scripting />
+            <LogManagement />
             <Cloud />
         </div>
     </section>

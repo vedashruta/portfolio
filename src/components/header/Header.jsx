@@ -27,26 +27,26 @@ const Header = () => {
                     </li>
 
                     <li className = "nav__item " >
-                        <a href="#education"  onClick={()=>setActiveNav('#education')} className={activeNav==="#education" ? "nav__link active-link":"nav__link"}>
-                            <i className = "uil uil-graduation-cap nav__icon"></i> Qualification
-                        </a>
-                    </li>
-
-                    <li className = "nav__item " >
                         <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav==="#experience" ? "nav__link active-link":"nav__link"}>
                             <i className = "uil uil-file-alt nav__icon"></i> Experience
                         </a>
                     </li>
 
                     <li className = "nav__item " >
-                        <a href="#project" onClick={()=>setActiveNav('#project')} className={activeNav==="#project" ? "nav__link active-link":"nav__link"}>
-                            <i className = "uil uil-code-branch nav__icon"></i> Projects
+                        <a href="#education"  onClick={()=>setActiveNav('#education')} className={activeNav==="#education" ? "nav__link active-link":"nav__link"}>
+                            <i className = "uil uil-graduation-cap nav__icon"></i> Qualification
                         </a>
                     </li>
 
                     <li className = "nav__item " >
                         <a href="#skills" onClick={()=>setActiveNav('#skills')} className={activeNav==="#skills" ? "nav__link active-link":"nav__link"}>
                             <i className = "uil uil-brackets-curly nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    
+                    <li className = "nav__item " >
+                        <a href="#project" onClick={()=>setActiveNav('#project')} className={activeNav==="#project" ? "nav__link active-link":"nav__link"}>
+                            <i className = "uil uil-code-branch nav__icon"></i> Projects
                         </a>
                     </li>
              </ul>

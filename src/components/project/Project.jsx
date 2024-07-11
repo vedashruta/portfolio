@@ -15,9 +15,9 @@ export const Project = () => {
         <div className="services__container container grid">
 
         <div className='services__content'>
-            <div>
+            <div className='services__item'>
                 <i className='bx bx-desktop services__icon'></i>
-                <h3 className='services__title'>Netflix<br/>Clone</h3>
+                <h3 className='services__title'>Netflix Clone</h3>
             </div>
             <span className='services__button' onClick={()=> toggleTab(1)}>View more<i className='uil uil-arrow-right services__button-icon'></i></span>
 
@@ -60,7 +60,7 @@ export const Project = () => {
             </div>
         </div>
 
-        <div className='services__content'>
+        {/* <div className='services__content'>
             <div>
                 <i className='bx bxs-user-account services__icon'></i>
                 <h3 className='services__title'>Payroll<br/>Management</h3>
@@ -127,7 +127,7 @@ export const Project = () => {
                     <p className="services__modal-info"><br/><b>Technologies used:</b><br/> Java, Android Studio</p>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         </div>
     </section>

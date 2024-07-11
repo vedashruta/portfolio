@@ -11,7 +11,7 @@ const Scripting = () => {
                         <i class='bx bxl-tux'></i>
                         <div>
                             <h3 className='skills__name'>Shell Scripting</h3>
-                            <span className='skills__level'>3.8/5</span>
+                            <span className='skills__level'>3.5/5</span>
                         </div>
                     </div>
 
@@ -19,7 +19,7 @@ const Scripting = () => {
                         <i class='bx bxl-python cust__icon' ></i>
                         <div>
                             <h3 className='skills__name'>Python</h3>
-                            <span className='skills__level'>3.8/5</span>
+                            <span className='skills__level'>3.5/5</span>
                         </div>
                     </div>
                 </div>
