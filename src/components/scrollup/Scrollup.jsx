@@ -17,8 +17,8 @@ export const Scrollup = () => {
       scrollUp.classList.remove("show-scroll");
   });
   return (
-    <a className='scrollup' onClick={scrollToTop} >
+    <button className='scrollup' onClick={scrollToTop} >
       <i className='uil uil-arrow-up scrollup__icon'></i>
-    </a>
+    </button>
   )
 }
