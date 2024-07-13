@@ -14,12 +14,17 @@ export const Footer = () => {
                 </li>
 
                 <li>
+                    <a href="#experience" className='footer__link'>Experience</a>
+                </li>
+
+                <li>
                     <a href="#education" className='footer__link'>Qualification</a>
                 </li>
                 
                 <li>
-                    <a href="#project" className='footer__link'>Project</a>
+                    <a href="#skills" className='footer__link'>Skills</a>
                 </li>
+
             </ul>
             <div className='footer__social'>
                 <a href='https://www.linkedin.com/in/vedashrutha-ds/' className='footer__social-link' target="blank">
@@ -33,8 +38,12 @@ export const Footer = () => {
                 <a href='https://www.instagram.com/vedashruta/' className='footer__social-link' target="blank">
                     <i class="bx bxl-instagram-alt"></i>
                 </a>
+
+                <a href='https://www.x.com/vedashruta/' className='footer__social-link' target="blank">
+                    <i class="bx bxl-twitter"></i>
+                </a>
             </div>
-            <span  className='footer__copy'>&#169; Vedashrutha 2023-24. All rights Reserved</span>
+            <span  className='footer__copy'>&#169; Vedashrutha 2024-25. All rights Reserved</span>
         </div>
     </footer>
   )

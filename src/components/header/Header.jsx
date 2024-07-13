@@ -43,12 +43,6 @@ const Header = () => {
                             <i className = "uil uil-brackets-curly nav__icon"></i> Skills
                         </a>
                     </li>
-                    
-                    <li className = "nav__item " >
-                        <a href="#project" onClick={()=>setActiveNav('#project')} className={activeNav==="#project" ? "nav__link active-link":"nav__link"}>
-                            <i className = "uil uil-code-branch nav__icon"></i> Projects
-                        </a>
-                    </li>
              </ul>
                 <i class = "uil uil-times nav__close" onClick={()=>showMenu(!Toggle)} ></i>
             </div>

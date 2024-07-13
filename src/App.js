@@ -5,7 +5,6 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Qualification from './components/qualification/Qualification';
 import Experience from './components/experience/Experience';
-import {Project} from './components/project/Project';
 import Skills from './components/skills/Skills'; 
 import { Footer } from './components/footer/Footer';
 import { Scrollup } from './components/scrollup/Scrollup';
@@ -20,7 +19,6 @@ const App = () => {
         <Experience />
         <Qualification />
         <Skills />
-        <Project />
       </main>
       <Footer/>
       <Scrollup />

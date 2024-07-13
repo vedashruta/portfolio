@@ -3,7 +3,7 @@ import "./experience.css";
 
 const experience = () => {
     return (
-        <section className="experience__section" id="experience">
+        <section className="experience section" id="experience">
             <h2 className="section__title"> Professional experience</h2>
             <br />
             <div className="experience__container container grid">
@@ -61,8 +61,10 @@ const experience = () => {
                                                 Developed a pipeline to migrate data from MongoDB to Elasticsearch.
                                             </i>
                                             <br />
-                                            <i class="bx bx-check">
-                                                Key achievement : Spearheaded the implementation of an email-ticketing system, enhancing communication and workflow efficiency within the product.
+                                            <i class="key__achievements">
+                                                Key achievements : <br/>
+                                                    1. Spearheaded the implementation of an email-ticketing system, enhancing communication and workflow efficiency within the product.<br/>
+                                                    2. Migrated all files from S3 in live environment with zero downtime, ensuring seamless transition and uninterrupted service
                                             </i>
                                             <br />
                                         </span>

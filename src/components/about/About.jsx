@@ -4,7 +4,7 @@ import CV from "../../assets/Vedashrutha.pdf";
 import Info from "./Info";
 const About = () => {
   return (
-    <section className="about-section" id="about">
+    <section className="about section" id="about">
       <h2 className="section__title"> Profile</h2>
       <br/>
       <div className="about__container container grid">
@@ -15,8 +15,7 @@ const About = () => {
             with GoLang, I'm passionate about using technology to tackle complex
             problems and drive innovation. With a strong foundation in both
             front-end and back-end development, I have the knowledge and skills
-            needed to create end-to-end solutions that not only meet but exceed
-            expectations. I love working in collaborative environments where I
+            needed to create end-to-end solutions. I love working in collaborative environments where I
             can team up with cross-functional groups to brainstorm ideas, refine
             designs, and deliver top-notch software products that truly make a
             difference. With a proven track record of success and a dedication
