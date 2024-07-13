@@ -27,4 +27,4 @@ jobs:
       - name: Deploy
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_VEDASHRUTA_PORTFOLIO }}
-        run: firebase deploy --only hosting --token $FIREBASE_TOKEN
+        run: firebase deploy --token $FIREBASE_TOKEN
