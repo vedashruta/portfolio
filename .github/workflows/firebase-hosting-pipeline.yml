@@ -25,8 +25,6 @@ jobs:
         run: npm run build
       
       - name: Deploy
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_VEDASHRUTA_PORTFOLIO }}
-          projectId: vedashruta-portfolio
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_VEDASHRUTA_PORTFOLIO }}
+        run: firebase deploy --only hosting --token $FIREBASE_TOKEN
