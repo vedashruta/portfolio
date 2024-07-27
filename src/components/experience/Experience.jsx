@@ -80,7 +80,7 @@ const experience = () => {
                         <h3 className="experience__title">
                             Signdesk |{" "}
                             <span className="experience__subtitle">
-                                Software Engineer Trainee Intern
+                                Software Engineer Trainee
                             </span>
                         </h3>
                         <div className="experience__data">
