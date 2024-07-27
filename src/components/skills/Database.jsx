@@ -18,9 +18,9 @@ const Database = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i class="bx bxl-postgresql cust__icon"></i>
+                        <i class="bx bxs-data cust__icon"></i>
                         <div>
-                            <h3 className="skills__name">PostgreSQL</h3>
+                            <h3 className="skills__name">SQL</h3>
                             <span className="skills__level">3.8/5</span>
                         </div>
                     </div>

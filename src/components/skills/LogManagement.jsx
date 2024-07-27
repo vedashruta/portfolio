@@ -12,7 +12,7 @@ const LogManagement = () => {
                     <div className='skills__data'>
                         <i class='bx'></i>
                         <div>
-                            <h3 className='skills__name'>ELK Stack</h3>
+                            <h3 className='skills__name'>Elastic Search</h3>
                             <span className='skills__level'>3.5/5</span>
                         </div>
                     </div>
