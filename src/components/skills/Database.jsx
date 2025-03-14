@@ -24,6 +24,14 @@ const Database = () => {
                             <span className="skills__level">3.8/5</span>
                         </div>
                     </div>
+
+                    <div className="skills__data">
+                        <i class='bx bxs-graphql'></i>
+                        <div>
+                            <h3 className="skills__name">Neo4j</h3>
+                            <span className="skills__level">3.9/5</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
