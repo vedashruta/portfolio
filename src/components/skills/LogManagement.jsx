@@ -13,7 +13,7 @@ const LogManagement = () => {
                         <i class='bx'></i>
                         <div>
                             <h3 className='skills__name'>Elastic Search</h3>
-                            <span className='skills__level'>3.5/5</span>
+                            <span className='skills__level'>3.9/5</span>
                         </div>
                     </div>
 
