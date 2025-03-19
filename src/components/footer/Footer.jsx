@@ -31,7 +31,7 @@ export const Footer = () => {
                     <i class="bx bxl-linkedin"></i>
                 </a>
 
-                <a href='https://github.com/Vedashrutha/' className='footer__social-link' target="blank">
+                <a href='https://github.com/vedashruta' className='footer__social-link' target="blank">
                     <i class="bx bxl-github"></i>
                 </a>
 
