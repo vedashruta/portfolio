@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.519a88aa.css",
-    "main.js": "/portfolio/static/js/main.8220a266.js",
+    "main.js": "/portfolio/static/js/main.d5570bd8.js",
     "static/js/787.30237536.chunk.js": "/portfolio/static/js/787.30237536.chunk.js",
     "static/media/Vedashrutha.pdf": "/portfolio/static/media/Vedashrutha.9ba6747c54176c4b197d.pdf",
     "static/media/about1.jpeg": "/portfolio/static/media/about1.9a878e3f6c56d31d1cf1.jpeg",
     "index.html": "/portfolio/index.html",
     "main.519a88aa.css.map": "/portfolio/static/css/main.519a88aa.css.map",
-    "main.8220a266.js.map": "/portfolio/static/js/main.8220a266.js.map",
+    "main.d5570bd8.js.map": "/portfolio/static/js/main.d5570bd8.js.map",
     "787.30237536.chunk.js.map": "/portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.519a88aa.css",
-    "static/js/main.8220a266.js"
+    "static/js/main.d5570bd8.js"
   ]
 }
