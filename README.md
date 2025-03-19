@@ -12,7 +12,7 @@ Welcome to my portfolio website! This project is built using React and showcases
 
 ## Demo
 
-You can view the live demo of the website [here](https://ved-ds.web.app).
+You can view the live demo of the website [here](https://vedashruta.github.io/portfolio/).
 
 ## Features
 
