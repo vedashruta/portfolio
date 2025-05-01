@@ -13,11 +13,12 @@ export const Project = () => {
       <br />
 
       <div className="services__container container grid">
-        <div className="services__content">
+        
+      <div className="services__content">
           <div>
-            <i className="bx bx-link services__icon"></i>
+            <i className="bx bxl-go-lang services__icon"></i>
             <h3 className="services__title">
-              ToolChain
+              Search Engine
               <br />
               Go
             </h3>
@@ -30,6 +31,96 @@ export const Project = () => {
           <div
             className={
               toggleState === 1
+                ? "services__modal active-modal"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
+              <h3 className="services__modal-title">Search Engine (GoSage)</h3>
+
+              <ul className="services__modal-services grid">
+                <p className="services__modal-info">
+                GO Sage is a blazing fast, in-memory full-text search engine written in Golang. It processes large datasets with stemming, stop-word filtering, and indexing — all designed for sub-second search latency.
+                </p>
+                <li className="services__modal-service">
+                  <i className="bx bx-check-double services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    {" "}
+                    In-Memory Reverse Index
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="bx bx-check-double services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    {" "}
+                    Normalization Pipeline
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="bx bx-check-double services__modal-icon"></i>
+                  <p className="services__modal-info">
+                  Concurrent Loading of data into memory
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="bx bx-check-double services__modal-icon"></i>
+                  <p className="services__modal-info">
+                  Meta search stats (matched/returned/total/time)
+                  </p>
+                </li>
+
+              </ul>
+              <p className="services__modal-info">
+                <br />
+                <b>Language</b>
+                <br />
+                Go(GoLang)
+              </p>
+
+              <p className="services__modal-info">
+                <br />
+                <i className="bx bxl-github services__modal-icon">
+                  <b>
+                    <a
+                      href="https://github.com/vedashruta/go-sage"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  </b>
+                </i>
+
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div className="services__content">
+          <div>
+            <i className="bx bx-link services__icon"></i>
+            <h3 className="services__title">
+              ToolChain
+              <br />
+              Go
+            </h3>
+          </div>
+          <span className="services__button" onClick={() => toggleTab(2)}>
+            View more
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 2
                 ? "services__modal active-modal"
                 : "services__modal"
             }
@@ -117,14 +208,14 @@ export const Project = () => {
               Clone
             </h3>
           </div>
-          <span className="services__button" onClick={() => toggleTab(2)}>
+          <span className="services__button" onClick={() => toggleTab(3)}>
             View more
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 2
+              toggleState === 3
                 ? "services__modal active-modal"
                 : "services__modal"
             }
@@ -204,14 +295,14 @@ export const Project = () => {
               <br />
             </h3>
           </div>
-          <span className="services__button" onClick={() => toggleTab(3)}>
+          <span className="services__button" onClick={() => toggleTab(4)}>
             View more
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
           <div
             className={
-              toggleState === 3
+              toggleState === 4
                 ? "services__modal active-modal"
                 : "services__modal"
             }

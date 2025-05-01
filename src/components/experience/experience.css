@@ -1,7 +1,12 @@
+.section__title{
+  margin-bottom: 2rem;
+}
+
 .experience__container { 
     grid-template-columns: repeat(1,999px); 
     justify-content: center; 
     row-gap: 1rem;
+    font-family: var(--body-font) !important;
 }
 
 .experience__content { 
@@ -9,6 +14,8 @@
     border: 1px solid rgba(0, 0, 0, 0.1); 
     background-color: var(--container-color); 
     padding: 2.5rem 1rem 1rem 2.5rem;
+    font-family: var(--body-font) !important;
+    font-family: var(--body-font) !important;
 }
 
 .experience__icon{
@@ -35,6 +42,8 @@
     font-weight: var(--font-normal);
     line-height: 1.5rem;
     font-style: normal;
+    font-family: var(--body-font) !important;
+
 }
 
 .title-dark{
@@ -51,7 +60,6 @@
         grid-template-columns: repeat(1,514px); 
     }
   }
-  
   /* For medium devices */
   @media screen and (max-width: 768px) {
     .experience__container { 
@@ -83,4 +91,88 @@
     .experience__content { 
         padding-right: 6rem;
     }
+  } */
+
+
+
+  /* experience.css */
+
+.experience {
+    padding: 4rem 0;
   }
+  
+  .experience__container { 
+    grid-template-columns: repeat(1,999px); 
+    justify-content: center; 
+    row-gap: 1rem;
+    font-family: var(--body-font);
+}
+  
+.experience__content { 
+    position: relative; 
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    background-color: var(--container-color); 
+    padding: 2.5rem 1rem 1rem 2.5rem;
+}
+  
+  .experience__title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience__subtitle {
+    font-size: var(--normal-font-size);
+    color: var(--text-light-color);
+  }
+  
+  .experience__calendar {
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    margin: 1rem 0;
+  }
+  
+  .title-dark {
+    font-weight: bold;
+    color: hsl(var(--hue), var(--sat), 20%);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .key__responsibilities,
+  .achievements {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+    font-size: var(--normal-font-size);
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .key__responsibilities li,
+  .achievements li {
+    margin-bottom: 0.2rem;
+  }
+  
+  .experience__highlight{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  /* Responsive Design */
+  @media screen and (max-width: 992px) {
+    .experience__container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .experience__content {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .experience__content {
+      padding: 1rem;
+    }
+  }
+  

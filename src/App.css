@@ -78,7 +78,7 @@ html {
 body,
 button,
 input,
-textarea {
+textarea{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 }
